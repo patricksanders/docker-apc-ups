@@ -8,8 +8,6 @@ docker run --rm -it -v $PWD/apcupsd.conf:/etc/apcupsd/apcupsd.conf --device=/dev
 Once in the container:
 
 ```
-apcupsd
-# Wait for startup message
 apcaccess
 ```
 
